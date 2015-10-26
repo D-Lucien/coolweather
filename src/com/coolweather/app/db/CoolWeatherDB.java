@@ -103,7 +103,7 @@ public class CoolWeatherDB {
 		}
 	}
 
-	public List<County> loadCountys(int cityId) {
+	public List<County> loadCounties(int cityId) {
 
 		List<County> list = new ArrayList<County>();
 		Cursor cursor = db.query("County", null, "city_id = ?",
